@@ -1,0 +1,1394 @@
+fileFormatVersion: 2
+guid: 6d72b3665c068224d9f1c95df961c425
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: 90R
+    100002: ARDO
+    100004: Basis
+    100006: Box001
+    100008: Box001 1
+    100010: Box002
+    100012: Box003
+    100014: Box004
+    100016: Box005
+    100018: Box006
+    100020: Box007
+    100022: Box008
+    100024: Box009
+    100026: Box010
+    100028: Box011
+    100030: Box012
+    100032: Box019
+    100034: Box020
+    100036: Box021
+    100038: Box022
+    100040: Box022 1
+    100042: Box023
+    100044: Box024
+    100046: Box026
+    100048: Box028
+    100050: Box029
+    100052: Box030
+    100054: Box031
+    100056: Box032
+    100058: Box033
+    100060: Box034
+    100062: Box035
+    100064: Box036
+    100066: Box037
+    100068: Box038
+    100070: Box039
+    100072: Box040
+    100074: Box041
+    100076: Box042
+    100078: Box043
+    100080: Box044
+    100082: Box045
+    100084: Box046
+    100086: Box047
+    100088: Box048
+    100090: Box049
+    100092: Box050
+    100094: Box051
+    100096: Box052
+    100098: Box053
+    100100: Box054
+    100102: Box055
+    100104: Burners
+    100106: cadeira
+    100108: cadeira001
+    100110: cadeira003
+    100112: cama_crianca
+    100114: cama_pais
+    100116: Canova Royal 90 190CV00
+    100118: Cap
+    100120: //RootNode
+    100122: Circle001
+    100124: Circle002
+    100126: Cloth_Shape
+    100128: Cloth_Shape003
+    100130: Cloth_Shape004
+    100132: Cloth_Shape005
+    100134: Control_Burner1
+    100136: Control_Burner2
+    100138: Control_Burner3
+    100140: Control_Burner4
+    100142: Control_Button_Black1
+    100144: Control_Button_Black2
+    100146: Control_Button_Red
+    100148: Control_Oven
+    100150: Control_Panel
+    100152: Control_Timer
+    100154: Cooking_grilles
+    100156: criado_mudo
+    100158: Cylinder001
+    100160: Cylinder001 1
+    100162: Cylinder002
+    100164: Cylinder002 1
+    100166: Cylinder003
+    100168: Cylinder003 1
+    100170: Cylinder003 2
+    100172: Cylinder004
+    100174: Cylinder004 1
+    100176: Cylinder004 2
+    100178: Cylinder005
+    100180: Cylinder005 1
+    100182: Cylinder005 2
+    100184: Cylinder006
+    100186: Cylinder006 1
+    100188: Cylinder006 2
+    100190: Cylinder007
+    100192: Cylinder007 1
+    100194: Cylinder007 2
+    100196: Cylinder008
+    100198: Cylinder008 1
+    100200: Cylinder009
+    100202: Cylinder010
+    100204: Cylinder011
+    100206: Cylinder012
+    100208: Cylinder013
+    100210: Cylinder013 1
+    100212: Cylinder014
+    100214: Cylinder014 1
+    100216: Cylinder015
+    100218: Cylinder016
+    100220: Cylinder023
+    100222: Cylinder024
+    100224: Cylinder025
+    100226: Cylinder026
+    100228: Cylinder027
+    100230: Cylinder028
+    100232: Cylinder029
+    100234: Cylinder030
+    100236: Cylinder031
+    100238: Cylinder032
+    100240: Cylinder033
+    100242: Cylinder034
+    100244: Cylinder035
+    100246: Cylinder036
+    100248: Cylinder037
+    100250: Cylinder038
+    100252: Cylinder039
+    100254: Cylinder040
+    100256: Cylinder041
+    100258: Cylinder042
+    100260: Door_oven
+    100262: Feet
+    100264: GeoSphere001
+    100266: Group001
+    100268: Group002
+    100270: Group002 1
+    100272: Group003
+    100274: Group003 1
+    100276: Group004
+    100278: Group004 1
+    100280: Group005
+    100282: Group006
+    100284: Group007
+    100286: Group008
+    100288: Group009
+    100290: Group010
+    100292: Group011
+    100294: Group012
+    100296: Group013
+    100298: Group014
+    100300: Group015
+    100302: Group016
+    100304: Group017
+    100306: Group018
+    100308: Group019
+    100310: Group020
+    100312: Group021
+    100314: Group022
+    100316: Group023
+    100318: Group024
+    100320: Group025
+    100322: Group026
+    100324: Group027
+    100326: Group028
+    100328: Group029
+    100330: Group030
+    100332: Group031
+    100334: Group032
+    100336: Group033
+    100338: Group034
+    100340: Group035
+    100342: Group036
+    100344: Group037
+    100346: Group038
+    100348: Group039
+    100350: Group040
+    100352: Helix001
+    100354: Helix002
+    100356: lampada
+    100358: lampada001
+    100360: Line001
+    100362: Line001 1
+    100364: Line001 2
+    100366: Line002
+    100368: Line002 1
+    100370: Line002 2
+    100372: Line003
+    100374: Line004
+    100376: Line004 1
+    100378: Line005
+    100380: Line006
+    100382: Line007
+    100384: Line008
+    100386: Line009
+    100388: Line010
+    100390: Line011
+    100392: Line012
+    100394: Line013
+    100396: Line014
+    100398: Line015
+    100400: Line016
+    100402: Line017
+    100404: Line018
+    100406: Line019
+    100408: Line020
+    100410: Line021
+    100412: Line022
+    100414: Line023
+    100416: Line024
+    100418: Line025
+    100420: Line026
+    100422: Line027
+    100424: Line028
+    100426: Line029
+    100428: Line030
+    100430: Line031
+    100432: Line032
+    100434: Line033
+    100436: Line034
+    100438: Line035
+    100440: Line036
+    100442: Line037
+    100444: Line038
+    100446: Line039
+    100448: Line040
+    100450: Line041
+    100452: Line042
+    100454: Line043
+    100456: Line044
+    100458: Line045
+    100460: Line046
+    100462: mesa
+    100464: Obj_Avatar_Shape
+    100466: Obj_Avatar_Shape001
+    100468: Object001
+    100470: Object004
+    100472: Object007
+    100474: Object008
+    100476: Object009
+    100478: Object010
+    100480: Object012
+    100482: Object013
+    100484: Object014
+    100486: Object016
+    100488: Object018
+    100490: Oven
+    100492: PhysCamera001
+    100494: PhysCamera001.Target
+    100496: PhysCamera002
+    100498: PhysCamera002.Target
+    100500: PhysCamera003
+    100502: PhysCamera003.Target
+    100504: piso
+    100506: Plane001
+    100508: Plane002
+    100510: Plane004
+    100512: Plane008
+    100514: Rectangle001
+    100516: Rectangle002
+    100518: Rectangle003
+    100520: Rectangle004
+    100522: Rectangle005
+    100524: Rectangle006
+    100526: Rectangle010
+    100528: Rectangle011
+    100530: Rectangle012
+    100532: Rectangle014
+    100534: Rectangle015
+    100536: Skaf_Verdi
+    100538: SMEG_001
+    100540: SMEG_002
+    100542: SMEG_003
+    100544: SMEG_004
+    100546: SMEG_005
+    100548: SMEG_006
+    100550: SMEG_007
+    100552: SMEG_008
+    100554: SMEG_009
+    100556: SMEG_010
+    100558: SMEG_011
+    100560: SMEG_012
+    100562: SMEG_013
+    100564: SMEG_014
+    100566: SMEG_015
+    100568: SMEG_017
+    100570: SMEG_018
+    100572: SMEG_019
+    100574: SMEG_020
+    100576: SMEG_021
+    100578: SMEG_022
+    100580: SMEG_023
+    100582: SMEG_024
+    100584: SMEG_025
+    100586: SMEG_026
+    100588: SMEG_027
+    100590: SMEG_028
+    100592: SMEG_029
+    100594: SMEG_030
+    100596: SMEG_031
+    100598: SMEG_032
+    100600: SMEG_033
+    100602: SMEG_034
+    100604: StraightStair002
+    400000: 90R
+    400002: ARDO
+    400004: Basis
+    400006: Box001
+    400008: Box001 1
+    400010: Box002
+    400012: Box003
+    400014: Box004
+    400016: Box005
+    400018: Box006
+    400020: Box007
+    400022: Box008
+    400024: Box009
+    400026: Box010
+    400028: Box011
+    400030: Box012
+    400032: Box019
+    400034: Box020
+    400036: Box021
+    400038: Box022
+    400040: Box022 1
+    400042: Box023
+    400044: Box024
+    400046: Box026
+    400048: Box028
+    400050: Box029
+    400052: Box030
+    400054: Box031
+    400056: Box032
+    400058: Box033
+    400060: Box034
+    400062: Box035
+    400064: Box036
+    400066: Box037
+    400068: Box038
+    400070: Box039
+    400072: Box040
+    400074: Box041
+    400076: Box042
+    400078: Box043
+    400080: Box044
+    400082: Box045
+    400084: Box046
+    400086: Box047
+    400088: Box048
+    400090: Box049
+    400092: Box050
+    400094: Box051
+    400096: Box052
+    400098: Box053
+    400100: Box054
+    400102: Box055
+    400104: Burners
+    400106: cadeira
+    400108: cadeira001
+    400110: cadeira003
+    400112: cama_crianca
+    400114: cama_pais
+    400116: Canova Royal 90 190CV00
+    400118: Cap
+    400120: //RootNode
+    400122: Circle001
+    400124: Circle002
+    400126: Cloth_Shape
+    400128: Cloth_Shape003
+    400130: Cloth_Shape004
+    400132: Cloth_Shape005
+    400134: Control_Burner1
+    400136: Control_Burner2
+    400138: Control_Burner3
+    400140: Control_Burner4
+    400142: Control_Button_Black1
+    400144: Control_Button_Black2
+    400146: Control_Button_Red
+    400148: Control_Oven
+    400150: Control_Panel
+    400152: Control_Timer
+    400154: Cooking_grilles
+    400156: criado_mudo
+    400158: Cylinder001
+    400160: Cylinder001 1
+    400162: Cylinder002
+    400164: Cylinder002 1
+    400166: Cylinder003
+    400168: Cylinder003 1
+    400170: Cylinder003 2
+    400172: Cylinder004
+    400174: Cylinder004 1
+    400176: Cylinder004 2
+    400178: Cylinder005
+    400180: Cylinder005 1
+    400182: Cylinder005 2
+    400184: Cylinder006
+    400186: Cylinder006 1
+    400188: Cylinder006 2
+    400190: Cylinder007
+    400192: Cylinder007 1
+    400194: Cylinder007 2
+    400196: Cylinder008
+    400198: Cylinder008 1
+    400200: Cylinder009
+    400202: Cylinder010
+    400204: Cylinder011
+    400206: Cylinder012
+    400208: Cylinder013
+    400210: Cylinder013 1
+    400212: Cylinder014
+    400214: Cylinder014 1
+    400216: Cylinder015
+    400218: Cylinder016
+    400220: Cylinder023
+    400222: Cylinder024
+    400224: Cylinder025
+    400226: Cylinder026
+    400228: Cylinder027
+    400230: Cylinder028
+    400232: Cylinder029
+    400234: Cylinder030
+    400236: Cylinder031
+    400238: Cylinder032
+    400240: Cylinder033
+    400242: Cylinder034
+    400244: Cylinder035
+    400246: Cylinder036
+    400248: Cylinder037
+    400250: Cylinder038
+    400252: Cylinder039
+    400254: Cylinder040
+    400256: Cylinder041
+    400258: Cylinder042
+    400260: Door_oven
+    400262: Feet
+    400264: GeoSphere001
+    400266: Group001
+    400268: Group002
+    400270: Group002 1
+    400272: Group003
+    400274: Group003 1
+    400276: Group004
+    400278: Group004 1
+    400280: Group005
+    400282: Group006
+    400284: Group007
+    400286: Group008
+    400288: Group009
+    400290: Group010
+    400292: Group011
+    400294: Group012
+    400296: Group013
+    400298: Group014
+    400300: Group015
+    400302: Group016
+    400304: Group017
+    400306: Group018
+    400308: Group019
+    400310: Group020
+    400312: Group021
+    400314: Group022
+    400316: Group023
+    400318: Group024
+    400320: Group025
+    400322: Group026
+    400324: Group027
+    400326: Group028
+    400328: Group029
+    400330: Group030
+    400332: Group031
+    400334: Group032
+    400336: Group033
+    400338: Group034
+    400340: Group035
+    400342: Group036
+    400344: Group037
+    400346: Group038
+    400348: Group039
+    400350: Group040
+    400352: Helix001
+    400354: Helix002
+    400356: lampada
+    400358: lampada001
+    400360: Line001
+    400362: Line001 1
+    400364: Line001 2
+    400366: Line002
+    400368: Line002 1
+    400370: Line002 2
+    400372: Line003
+    400374: Line004
+    400376: Line004 1
+    400378: Line005
+    400380: Line006
+    400382: Line007
+    400384: Line008
+    400386: Line009
+    400388: Line010
+    400390: Line011
+    400392: Line012
+    400394: Line013
+    400396: Line014
+    400398: Line015
+    400400: Line016
+    400402: Line017
+    400404: Line018
+    400406: Line019
+    400408: Line020
+    400410: Line021
+    400412: Line022
+    400414: Line023
+    400416: Line024
+    400418: Line025
+    400420: Line026
+    400422: Line027
+    400424: Line028
+    400426: Line029
+    400428: Line030
+    400430: Line031
+    400432: Line032
+    400434: Line033
+    400436: Line034
+    400438: Line035
+    400440: Line036
+    400442: Line037
+    400444: Line038
+    400446: Line039
+    400448: Line040
+    400450: Line041
+    400452: Line042
+    400454: Line043
+    400456: Line044
+    400458: Line045
+    400460: Line046
+    400462: mesa
+    400464: Obj_Avatar_Shape
+    400466: Obj_Avatar_Shape001
+    400468: Object001
+    400470: Object004
+    400472: Object007
+    400474: Object008
+    400476: Object009
+    400478: Object010
+    400480: Object012
+    400482: Object013
+    400484: Object014
+    400486: Object016
+    400488: Object018
+    400490: Oven
+    400492: PhysCamera001
+    400494: PhysCamera001.Target
+    400496: PhysCamera002
+    400498: PhysCamera002.Target
+    400500: PhysCamera003
+    400502: PhysCamera003.Target
+    400504: piso
+    400506: Plane001
+    400508: Plane002
+    400510: Plane004
+    400512: Plane008
+    400514: Rectangle001
+    400516: Rectangle002
+    400518: Rectangle003
+    400520: Rectangle004
+    400522: Rectangle005
+    400524: Rectangle006
+    400526: Rectangle010
+    400528: Rectangle011
+    400530: Rectangle012
+    400532: Rectangle014
+    400534: Rectangle015
+    400536: Skaf_Verdi
+    400538: SMEG_001
+    400540: SMEG_002
+    400542: SMEG_003
+    400544: SMEG_004
+    400546: SMEG_005
+    400548: SMEG_006
+    400550: SMEG_007
+    400552: SMEG_008
+    400554: SMEG_009
+    400556: SMEG_010
+    400558: SMEG_011
+    400560: SMEG_012
+    400562: SMEG_013
+    400564: SMEG_014
+    400566: SMEG_015
+    400568: SMEG_017
+    400570: SMEG_018
+    400572: SMEG_019
+    400574: SMEG_020
+    400576: SMEG_021
+    400578: SMEG_022
+    400580: SMEG_023
+    400582: SMEG_024
+    400584: SMEG_025
+    400586: SMEG_026
+    400588: SMEG_027
+    400590: SMEG_028
+    400592: SMEG_029
+    400594: SMEG_030
+    400596: SMEG_031
+    400598: SMEG_032
+    400600: SMEG_033
+    400602: SMEG_034
+    400604: StraightStair002
+    2100000: 'Material #18837774'
+    2100002: 'Material #18837775'
+    2100004: 'Material #18837778'
+    2100006: 'Material #18837776'
+    2100008: 'Material #18837779'
+    2100010: No Name
+    2100012: 'Material #18837781'
+    2100014: 'Material #18837780'
+    2100016: 'Material #147'
+    2100018: 'Material #18837782'
+    2100020: 'Material #18837783'
+    2100022: 'Material #18837784'
+    2100024: 'Material #18837785'
+    2100026: 'Material #18837786'
+    2100028: 'Material #18837787'
+    2100030: 'Material #18837788'
+    2100032: 'Material #18837789'
+    2100034: 'Material #18837790'
+    2100036: 'Material #18837791'
+    2100038: 'Material #18837792'
+    2100040: 'Material #18837793'
+    2100042: 'Material #117'
+    2100044: 'Material #129'
+    2100046: 'Material #18837773'
+    2100048: 'Material #77'
+    2100050: 'Material #18837796'
+    2100052: Material1825
+    2100054: 'Material #18837795'
+    2100056: 'Material #18837794'
+    2100058: 'Material #18837797'
+    2100060: 'Material #18837798'
+    2100062: 'Material #18837799'
+    2100064: 'Material #18837800'
+    2300000: Basis
+    2300002: Box001
+    2300004: Box001 1
+    2300006: Box002
+    2300008: Box003
+    2300010: Box004
+    2300012: Box005
+    2300014: Box006
+    2300016: Box007
+    2300018: Box008
+    2300020: Box009
+    2300022: Box010
+    2300024: Box011
+    2300026: Box012
+    2300028: Box019
+    2300030: Box020
+    2300032: Box021
+    2300034: Box022
+    2300036: Box022 1
+    2300038: Box023
+    2300040: Box024
+    2300042: Box026
+    2300044: Box028
+    2300046: Box029
+    2300048: Box030
+    2300050: Box031
+    2300052: Box032
+    2300054: Box033
+    2300056: Box034
+    2300058: Box035
+    2300060: Box036
+    2300062: Box037
+    2300064: Box038
+    2300066: Box039
+    2300068: Box040
+    2300070: Box041
+    2300072: Box042
+    2300074: Box043
+    2300076: Box044
+    2300078: Box045
+    2300080: Box046
+    2300082: Box047
+    2300084: Box048
+    2300086: Box049
+    2300088: Box050
+    2300090: Box051
+    2300092: Box052
+    2300094: Box053
+    2300096: Box054
+    2300098: Box055
+    2300100: Burners
+    2300102: Cap
+    2300104: Cloth_Shape
+    2300106: Cloth_Shape003
+    2300108: Cloth_Shape004
+    2300110: Cloth_Shape005
+    2300112: Control_Burner1
+    2300114: Control_Burner2
+    2300116: Control_Burner3
+    2300118: Control_Burner4
+    2300120: Control_Button_Black1
+    2300122: Control_Button_Black2
+    2300124: Control_Button_Red
+    2300126: Control_Oven
+    2300128: Control_Panel
+    2300130: Control_Timer
+    2300132: Cooking_grilles
+    2300134: Cylinder001
+    2300136: Cylinder001 1
+    2300138: Cylinder002
+    2300140: Cylinder002 1
+    2300142: Cylinder003
+    2300144: Cylinder003 1
+    2300146: Cylinder003 2
+    2300148: Cylinder004
+    2300150: Cylinder004 1
+    2300152: Cylinder004 2
+    2300154: Cylinder005
+    2300156: Cylinder005 1
+    2300158: Cylinder005 2
+    2300160: Cylinder006
+    2300162: Cylinder006 1
+    2300164: Cylinder006 2
+    2300166: Cylinder007
+    2300168: Cylinder007 1
+    2300170: Cylinder007 2
+    2300172: Cylinder008
+    2300174: Cylinder008 1
+    2300176: Cylinder009
+    2300178: Cylinder010
+    2300180: Cylinder011
+    2300182: Cylinder012
+    2300184: Cylinder013
+    2300186: Cylinder013 1
+    2300188: Cylinder014
+    2300190: Cylinder014 1
+    2300192: Cylinder015
+    2300194: Cylinder016
+    2300196: Cylinder023
+    2300198: Cylinder024
+    2300200: Cylinder025
+    2300202: Cylinder026
+    2300204: Cylinder027
+    2300206: Cylinder028
+    2300208: Cylinder029
+    2300210: Cylinder030
+    2300212: Cylinder031
+    2300214: Cylinder032
+    2300216: Cylinder033
+    2300218: Cylinder034
+    2300220: Cylinder035
+    2300222: Cylinder036
+    2300224: Cylinder037
+    2300226: Cylinder038
+    2300228: Cylinder039
+    2300230: Cylinder040
+    2300232: Cylinder041
+    2300234: Cylinder042
+    2300236: Door_oven
+    2300238: Feet
+    2300240: GeoSphere001
+    2300242: Line001
+    2300244: Line001 1
+    2300246: Line001 2
+    2300248: Line002
+    2300250: Line002 1
+    2300252: Line002 2
+    2300254: Line003
+    2300256: Line004
+    2300258: Line004 1
+    2300260: Line005
+    2300262: Line006
+    2300264: Line007
+    2300266: Line008
+    2300268: Line009
+    2300270: Line010
+    2300272: Line011
+    2300274: Line012
+    2300276: Line013
+    2300278: Line014
+    2300280: Line015
+    2300282: Line016
+    2300284: Line017
+    2300286: Line018
+    2300288: Line019
+    2300290: Line020
+    2300292: Line021
+    2300294: Line022
+    2300296: Line023
+    2300298: Line024
+    2300300: Line025
+    2300302: Line026
+    2300304: Line027
+    2300306: Line028
+    2300308: Line029
+    2300310: Line030
+    2300312: Line031
+    2300314: Line032
+    2300316: Line033
+    2300318: Line034
+    2300320: Line035
+    2300322: Line036
+    2300324: Line037
+    2300326: Line038
+    2300328: Line039
+    2300330: Line040
+    2300332: Line041
+    2300334: Line042
+    2300336: Line045
+    2300338: Line046
+    2300340: Obj_Avatar_Shape
+    2300342: Obj_Avatar_Shape001
+    2300344: Object001
+    2300346: Object004
+    2300348: Object007
+    2300350: Object008
+    2300352: Object009
+    2300354: Object010
+    2300356: Object012
+    2300358: Object013
+    2300360: Object014
+    2300362: Object016
+    2300364: Object018
+    2300366: Oven
+    2300368: piso
+    2300370: Plane001
+    2300372: Plane002
+    2300374: Plane004
+    2300376: Plane008
+    2300378: Rectangle001
+    2300380: Rectangle002
+    2300382: Rectangle003
+    2300384: Rectangle004
+    2300386: Rectangle005
+    2300388: Rectangle006
+    2300390: Rectangle010
+    2300392: Rectangle011
+    2300394: Rectangle012
+    2300396: Rectangle014
+    2300398: Rectangle015
+    2300400: Skaf_Verdi
+    2300402: SMEG_009
+    2300404: SMEG_010
+    2300406: SMEG_011
+    2300408: SMEG_012
+    2300410: SMEG_013
+    2300412: SMEG_019
+    2300414: SMEG_020
+    2300416: SMEG_021
+    2300418: SMEG_022
+    2300420: SMEG_023
+    2300422: SMEG_024
+    2300424: SMEG_025
+    2300426: SMEG_026
+    2300428: SMEG_027
+    2300430: SMEG_028
+    2300432: SMEG_029
+    2300434: SMEG_030
+    2300436: SMEG_031
+    2300438: SMEG_032
+    2300440: SMEG_033
+    2300442: StraightStair002
+    3300000: Basis
+    3300002: Box001
+    3300004: Box001 1
+    3300006: Box002
+    3300008: Box003
+    3300010: Box004
+    3300012: Box005
+    3300014: Box006
+    3300016: Box007
+    3300018: Box008
+    3300020: Box009
+    3300022: Box010
+    3300024: Box011
+    3300026: Box012
+    3300028: Box019
+    3300030: Box020
+    3300032: Box021
+    3300034: Box022
+    3300036: Box022 1
+    3300038: Box023
+    3300040: Box024
+    3300042: Box026
+    3300044: Box028
+    3300046: Box029
+    3300048: Box030
+    3300050: Box031
+    3300052: Box032
+    3300054: Box033
+    3300056: Box034
+    3300058: Box035
+    3300060: Box036
+    3300062: Box037
+    3300064: Box038
+    3300066: Box039
+    3300068: Box040
+    3300070: Box041
+    3300072: Box042
+    3300074: Box043
+    3300076: Box044
+    3300078: Box045
+    3300080: Box046
+    3300082: Box047
+    3300084: Box048
+    3300086: Box049
+    3300088: Box050
+    3300090: Box051
+    3300092: Box052
+    3300094: Box053
+    3300096: Box054
+    3300098: Box055
+    3300100: Burners
+    3300102: Cap
+    3300104: Cloth_Shape
+    3300106: Cloth_Shape003
+    3300108: Cloth_Shape004
+    3300110: Cloth_Shape005
+    3300112: Control_Burner1
+    3300114: Control_Burner2
+    3300116: Control_Burner3
+    3300118: Control_Burner4
+    3300120: Control_Button_Black1
+    3300122: Control_Button_Black2
+    3300124: Control_Button_Red
+    3300126: Control_Oven
+    3300128: Control_Panel
+    3300130: Control_Timer
+    3300132: Cooking_grilles
+    3300134: Cylinder001
+    3300136: Cylinder001 1
+    3300138: Cylinder002
+    3300140: Cylinder002 1
+    3300142: Cylinder003
+    3300144: Cylinder003 1
+    3300146: Cylinder003 2
+    3300148: Cylinder004
+    3300150: Cylinder004 1
+    3300152: Cylinder004 2
+    3300154: Cylinder005
+    3300156: Cylinder005 1
+    3300158: Cylinder005 2
+    3300160: Cylinder006
+    3300162: Cylinder006 1
+    3300164: Cylinder006 2
+    3300166: Cylinder007
+    3300168: Cylinder007 1
+    3300170: Cylinder007 2
+    3300172: Cylinder008
+    3300174: Cylinder008 1
+    3300176: Cylinder009
+    3300178: Cylinder010
+    3300180: Cylinder011
+    3300182: Cylinder012
+    3300184: Cylinder013
+    3300186: Cylinder013 1
+    3300188: Cylinder014
+    3300190: Cylinder014 1
+    3300192: Cylinder015
+    3300194: Cylinder016
+    3300196: Cylinder023
+    3300198: Cylinder024
+    3300200: Cylinder025
+    3300202: Cylinder026
+    3300204: Cylinder027
+    3300206: Cylinder028
+    3300208: Cylinder029
+    3300210: Cylinder030
+    3300212: Cylinder031
+    3300214: Cylinder032
+    3300216: Cylinder033
+    3300218: Cylinder034
+    3300220: Cylinder035
+    3300222: Cylinder036
+    3300224: Cylinder037
+    3300226: Cylinder038
+    3300228: Cylinder039
+    3300230: Cylinder040
+    3300232: Cylinder041
+    3300234: Cylinder042
+    3300236: Door_oven
+    3300238: Feet
+    3300240: GeoSphere001
+    3300242: Line001
+    3300244: Line001 1
+    3300246: Line001 2
+    3300248: Line002
+    3300250: Line002 1
+    3300252: Line002 2
+    3300254: Line003
+    3300256: Line004
+    3300258: Line004 1
+    3300260: Line005
+    3300262: Line006
+    3300264: Line007
+    3300266: Line008
+    3300268: Line009
+    3300270: Line010
+    3300272: Line011
+    3300274: Line012
+    3300276: Line013
+    3300278: Line014
+    3300280: Line015
+    3300282: Line016
+    3300284: Line017
+    3300286: Line018
+    3300288: Line019
+    3300290: Line020
+    3300292: Line021
+    3300294: Line022
+    3300296: Line023
+    3300298: Line024
+    3300300: Line025
+    3300302: Line026
+    3300304: Line027
+    3300306: Line028
+    3300308: Line029
+    3300310: Line030
+    3300312: Line031
+    3300314: Line032
+    3300316: Line033
+    3300318: Line034
+    3300320: Line035
+    3300322: Line036
+    3300324: Line037
+    3300326: Line038
+    3300328: Line039
+    3300330: Line040
+    3300332: Line041
+    3300334: Line042
+    3300336: Line045
+    3300338: Line046
+    3300340: Obj_Avatar_Shape
+    3300342: Obj_Avatar_Shape001
+    3300344: Object001
+    3300346: Object004
+    3300348: Object007
+    3300350: Object008
+    3300352: Object009
+    3300354: Object010
+    3300356: Object012
+    3300358: Object013
+    3300360: Object014
+    3300362: Object016
+    3300364: Object018
+    3300366: Oven
+    3300368: piso
+    3300370: Plane001
+    3300372: Plane002
+    3300374: Plane004
+    3300376: Plane008
+    3300378: Rectangle001
+    3300380: Rectangle002
+    3300382: Rectangle003
+    3300384: Rectangle004
+    3300386: Rectangle005
+    3300388: Rectangle006
+    3300390: Rectangle010
+    3300392: Rectangle011
+    3300394: Rectangle012
+    3300396: Rectangle014
+    3300398: Rectangle015
+    3300400: Skaf_Verdi
+    3300402: SMEG_009
+    3300404: SMEG_010
+    3300406: SMEG_011
+    3300408: SMEG_012
+    3300410: SMEG_013
+    3300412: SMEG_019
+    3300414: SMEG_020
+    3300416: SMEG_021
+    3300418: SMEG_022
+    3300420: SMEG_023
+    3300422: SMEG_024
+    3300424: SMEG_025
+    3300426: SMEG_026
+    3300428: SMEG_027
+    3300430: SMEG_028
+    3300432: SMEG_029
+    3300434: SMEG_030
+    3300436: SMEG_031
+    3300438: SMEG_032
+    3300440: SMEG_033
+    3300442: StraightStair002
+    4300000: Line001
+    4300002: Box006
+    4300004: Box005
+    4300006: Box004
+    4300008: Box003
+    4300010: Box002
+    4300012: Plane001
+    4300014: Cylinder004
+    4300016: Cylinder003
+    4300018: Cylinder002
+    4300020: Cylinder001
+    4300022: Box001
+    4300024: Box007
+    4300026: Line002
+    4300028: Box008
+    4300030: Box009
+    4300032: Box010
+    4300034: Box011
+    4300036: Box012
+    4300038: Plane002
+    4300040: Cylinder005
+    4300042: Cylinder006
+    4300044: Cylinder007
+    4300046: Cylinder008
+    4300048: Box019
+    4300050: Line004
+    4300052: Box020
+    4300054: Box021
+    4300056: Box022
+    4300058: Box023
+    4300060: Box024
+    4300062: Plane004
+    4300064: Cylinder013
+    4300066: Cylinder014
+    4300068: Cylinder015
+    4300070: Cylinder016
+    4300072: SMEG_009
+    4300074: SMEG_010
+    4300076: SMEG_011
+    4300078: SMEG_012
+    4300080: SMEG_013
+    4300082: SMEG_019
+    4300084: SMEG_020
+    4300086: SMEG_021
+    4300088: SMEG_022
+    4300090: SMEG_023
+    4300092: SMEG_024
+    4300094: SMEG_025
+    4300096: SMEG_026
+    4300098: SMEG_027
+    4300100: SMEG_028
+    4300102: SMEG_029
+    4300104: SMEG_030
+    4300106: SMEG_031
+    4300108: SMEG_032
+    4300110: SMEG_033
+    4300112: StraightStair002
+    4300114: Basis
+    4300116: Burners
+    4300118: Cooking_grilles
+    4300120: Cap
+    4300122: Control_Timer
+    4300124: Control_Oven
+    4300126: Control_Burner1
+    4300128: Control_Button_Black1
+    4300130: Control_Button_Black2
+    4300132: Control_Button_Red
+    4300134: Door_oven
+    4300136: Oven
+    4300138: Feet
+    4300140: Control_Panel
+    4300142: Control_Burner2
+    4300144: Control_Burner3
+    4300146: Control_Burner4
+    4300148: Rectangle002
+    4300150: Rectangle006
+    4300152: Rectangle003
+    4300154: Rectangle005
+    4300156: Rectangle004
+    4300158: Box026
+    4300160: Skaf_Verdi
+    4300162: Box001
+    4300164: Box022
+    4300166: Object001
+    4300168: Cloth_Shape003
+    4300170: Obj_Avatar_Shape001
+    4300172: Cloth_Shape005
+    4300174: Cloth_Shape
+    4300176: Cloth_Shape004
+    4300178: Obj_Avatar_Shape
+    4300180: Line022
+    4300182: Line040
+    4300184: Cylinder040
+    4300186: Line039
+    4300188: Line038
+    4300190: Cylinder039
+    4300192: Line037
+    4300194: Line036
+    4300196: Cylinder038
+    4300198: Line035
+    4300200: Line034
+    4300202: Cylinder037
+    4300204: Line033
+    4300206: Line032
+    4300208: Cylinder036
+    4300210: Line031
+    4300212: Line030
+    4300214: Cylinder035
+    4300216: Line029
+    4300218: Line028
+    4300220: Line027
+    4300222: Line026
+    4300224: Cylinder034
+    4300226: Line041
+    4300228: Cylinder033
+    4300230: Line025
+    4300232: Cylinder032
+    4300234: Line024
+    4300236: Line023
+    4300238: Cylinder031
+    4300240: Cylinder023
+    4300242: Line021
+    4300244: Cylinder030
+    4300246: Line020
+    4300248: Line019
+    4300250: Cylinder029
+    4300252: Line018
+    4300254: Line017
+    4300256: Cylinder028
+    4300258: Line016
+    4300260: Line015
+    4300262: Cylinder027
+    4300264: Line014
+    4300266: Line013
+    4300268: Cylinder026
+    4300270: Line012
+    4300272: Line011
+    4300274: Line010
+    4300276: Line009
+    4300278: Cylinder025
+    4300280: Line008
+    4300282: Line007
+    4300284: Cylinder024
+    4300286: Line001
+    4300288: Cylinder005
+    4300290: Cylinder003
+    4300292: Line004
+    4300294: Cylinder002
+    4300296: Cylinder001
+    4300298: Line002
+    4300300: Line005
+    4300302: Line006
+    4300304: Cylinder007
+    4300306: Line003
+    4300308: Cylinder006
+    4300310: Cylinder004
+    4300312: Object007
+    4300314: Object008
+    4300316: GeoSphere001
+    4300318: Rectangle014
+    4300320: Rectangle015
+    4300322: Object004
+    4300324: Box028
+    4300326: Plane008
+    4300328: Cylinder003
+    4300330: Cylinder004
+    4300332: Cylinder005
+    4300334: Cylinder006
+    4300336: Cylinder014
+    4300338: Cylinder010
+    4300340: Line001
+    4300342: Cylinder008
+    4300344: Cylinder009
+    4300346: Cylinder007
+    4300348: Cylinder011
+    4300350: Cylinder012
+    4300352: Cylinder013
+    4300354: Box029
+    4300356: Box030
+    4300358: Object012
+    4300360: Box032
+    4300362: Line002
+    4300364: Object009
+    4300366: Box033
+    4300368: Line042
+    4300370: Object010
+    4300372: Object013
+    4300374: Box034
+    4300376: Cylinder041
+    4300378: Box035
+    4300380: Cylinder042
+    4300382: Box036
+    4300384: Rectangle011
+    4300386: Box031
+    4300388: Rectangle012
+    4300390: Rectangle010
+    4300392: piso
+    4300394: Rectangle001
+    4300396: Object014
+    4300398: Box037
+    4300400: Line045
+    4300402: Box038
+    4300404: Line046
+    4300406: Object016
+    4300408: Box039
+    4300410: Box040
+    4300412: Box041
+    4300414: Box042
+    4300416: Box043
+    4300418: Box044
+    4300420: Box045
+    4300422: Box046
+    4300424: Box047
+    4300426: Box048
+    4300428: Box049
+    4300430: Box050
+    4300432: Box051
+    4300434: Box052
+    4300436: Box053
+    4300438: Box054
+    4300440: Box055
+    4300442: Object018
+    7400000: Take 001
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
