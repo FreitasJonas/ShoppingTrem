@@ -84,6 +84,7 @@
     <Compile Include="Assets\Scripts\Sale\SaleManager.cs" />
     <Compile Include="Assets\Scripts\Scenes\all\AssentoC.cs" />
     <Compile Include="Assets\Scripts\Scenes\all\GrupoAssentoC.cs" />
+    <Compile Include="Assets\Scripts\Scenes\menu\MenuSceneController.cs" />
     <Compile Include="Assets\Scripts\UIElements\JoyStick\BtnRun.cs" />
     <Compile Include="Assets\Scripts\UIElements\JoyStick\BtnSale.cs" />
     <Compile Include="Assets\Scripts\UIElements\JoyStick\BtnSit.cs" />
@@ -95,6 +96,7 @@
     <Compile Include="Assets\Scripts\UIElements\Scene\BarraVenda.cs" />
     <Compile Include="Assets\Scripts\UIElements\Scene\BtnFimJogo.cs" />
     <Compile Include="Assets\Scripts\UIElements\Scene\Temporizador.cs" />
+    <Compile Include="Assets\Scripts\UIElements\Songs\audioBtnPressLimit.cs" />
     <Compile Include="Assets\Scripts\UIElements\Songs\audioCoinLimit.cs" />
     <Compile Include="Assets\Simple Scene Fade Load System\Demo (You don't have to import this folder)\DemoScript.cs" />
     <Compile Include="Assets\Simple Scene Fade Load System\Scripts\Fader.cs" />
