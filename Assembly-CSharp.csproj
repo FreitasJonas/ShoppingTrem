@@ -84,6 +84,7 @@
     <Compile Include="Assets\Scripts\Sale\SaleManager.cs" />
     <Compile Include="Assets\Scripts\Scenes\all\AssentoC.cs" />
     <Compile Include="Assets\Scripts\Scenes\all\GrupoAssentoC.cs" />
+    <Compile Include="Assets\Scripts\Scenes\InitialScene\InitialSceneC.cs" />
     <Compile Include="Assets\Scripts\Scenes\menu\MenuSceneController.cs" />
     <Compile Include="Assets\Scripts\UIElements\JoyStick\BtnRun.cs" />
     <Compile Include="Assets\Scripts\UIElements\JoyStick\BtnSale.cs" />
@@ -91,6 +92,7 @@
     <Compile Include="Assets\Scripts\UIElements\JoyStick\JoyStickArrow.cs" />
     <Compile Include="Assets\Scripts\UIElements\JoyStick\JoyStickBtnLeft.cs" />
     <Compile Include="Assets\Scripts\UIElements\JoyStick\JoyStickBtnRight.cs" />
+    <Compile Include="Assets\Scripts\UIElements\MenuScene\Options\VolumeController.cs" />
     <Compile Include="Assets\Scripts\UIElements\Parallax\Parallax.cs" />
     <Compile Include="Assets\Scripts\UIElements\Scene\BarraMochila.cs" />
     <Compile Include="Assets\Scripts\UIElements\Scene\BarraVenda.cs" />
