@@ -15,6 +15,8 @@ public class CameraC : MonoBehaviour {
         var temporizador = Instantiate(this.temporizador);
         var scriptTemporizador = temporizador.gameObject.GetComponent<Temporizador>();
         scriptTemporizador.onFinish = EnableGame;
+
+        Debug.Log("Mute: " + GlobalConfiguration.Instance.isMute);
 	}
 	
     void EnableGame()

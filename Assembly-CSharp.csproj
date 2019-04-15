@@ -72,6 +72,7 @@
     <Compile Include="Assets\Scripts\Camera\CameraMenu.cs" />
     <Compile Include="Assets\Scripts\Cliente\ClienteC.cs" />
     <Compile Include="Assets\Scripts\Cliente\NpcSale.cs" />
+    <Compile Include="Assets\Scripts\Configuration\GlobalConfiguration.cs" />
     <Compile Include="Assets\Scripts\Guarda\GuardaC.cs" />
     <Compile Include="Assets\Scripts\NavMashScripts\NavMeshLink.cs" />
     <Compile Include="Assets\Scripts\NavMashScripts\NavMeshModifier.cs" />
@@ -92,6 +93,7 @@
     <Compile Include="Assets\Scripts\UIElements\JoyStick\JoyStickArrow.cs" />
     <Compile Include="Assets\Scripts\UIElements\JoyStick\JoyStickBtnLeft.cs" />
     <Compile Include="Assets\Scripts\UIElements\JoyStick\JoyStickBtnRight.cs" />
+    <Compile Include="Assets\Scripts\UIElements\MenuScene\Options\OptionsMenuController.cs" />
     <Compile Include="Assets\Scripts\UIElements\MenuScene\Options\VolumeController.cs" />
     <Compile Include="Assets\Scripts\UIElements\Parallax\Parallax.cs" />
     <Compile Include="Assets\Scripts\UIElements\Scene\BarraMochila.cs" />
