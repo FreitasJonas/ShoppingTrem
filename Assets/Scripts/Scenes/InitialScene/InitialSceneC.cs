@@ -6,7 +6,6 @@ public class InitialSceneC : MonoBehaviour
 {
     public void OnClickStartButton()
     {
-        Debug.Log("Clicked");
         Initiate.Fade("sceneMenu", Color.black, 0.5f);
     }
 }

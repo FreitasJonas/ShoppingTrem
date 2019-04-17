@@ -6,22 +6,33 @@ public class OptionsMenuController : MonoBehaviour
     public Slider sliderVolume;
     public VolumeController volumeController;
 
+    private GlobalConfiguration configuration;
+
     private void Start()
     {
-        if(PlayerPrefs.HasKey("volume"))
-        {
-            sliderVolume.value = PlayerPrefs.GetFloat("volume");
-        }
+        configuration = ConfigurationManager.Instance.LoadConfigurarion();
 
-        if(PlayerPrefs.HasKey("isMute"))
+        if (configuration != null)
         {
-            volumeController.setMute(PlayerPrefs.GetInt("isMute") == 0 ? false : true);
-        }        
+            sliderVolume.value = (float)configuration.settingsConfig.volume;
+            volumeController.setMute(configuration.settingsConfig.isMute == 0 ? false : true);
+        }
+        else
+        {
+            Debug.Log("configuration = null");
+        }
     }
 
     public void SavePrefs()
     {
-        PlayerPrefs.SetFloat("volume", sliderVolume.value);
-        PlayerPrefs.SetInt("isMute", volumeController.GetMuteValue());
+        if(configuration == null)
+        {
+            configuration = new GlobalConfiguration();
+        }
+
+        configuration.settingsConfig.isMute = volumeController.GetMuteValue();
+        configuration.settingsConfig.volume = sliderVolume.value;
+
+        ConfigurationManager.Instance.SaveConfiguration(configuration);
     }
 }
