@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using UnityEngine;
 
 public class ConfigurationManager : MonoBehaviour
@@ -25,10 +26,11 @@ public class ConfigurationManager : MonoBehaviour
         {
             if (PlayerPrefs.HasKey(Instance.key))
             {
-                var jSon = PlayerPrefs.GetString(Instance.key);
-                Debug.Log("Load: " + jSon);
+                var Json = PlayerPrefs.GetString(Instance.key);
+                Debug.Log("Load: " + Json);
 
-                GlobalConfiguration configuration = (GlobalConfiguration)JsonUtility.FromJson(jSon, typeof(GlobalConfiguration));
+                GlobalConfiguration configuration = JsonConvert.DeserializeObject<GlobalConfiguration>(Json);
+                    //(GlobalConfiguration)JsonUtility.FromJson(jSon, typeof(GlobalConfiguration));
 
                 Debug.Log("VOLUME: " + configuration.settingsConfig.volume);
 
@@ -49,9 +51,10 @@ public class ConfigurationManager : MonoBehaviour
 
     public void SaveConfiguration(GlobalConfiguration configuration)
     {
-        var jSon = JsonUtility.ToJson(configuration, true);
-        Debug.Log("Save: " + jSon);
+        //var jSon = JsonUtility.ToJson(configuration, true);
+        var Json = JsonConvert.SerializeObject(configuration, Formatting.Indented);
+        Debug.Log("Save: " + Json);
 
-        PlayerPrefs.SetString(Instance.key, jSon);
+        PlayerPrefs.SetString(Instance.key, Json);
     }
 }
