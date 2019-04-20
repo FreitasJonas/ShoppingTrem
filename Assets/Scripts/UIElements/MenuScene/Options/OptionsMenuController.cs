@@ -15,11 +15,7 @@ public class OptionsMenuController : MonoBehaviour
         if (configuration != null)
         {
             sliderVolume.value = (float)configuration.settingsConfig.volume;
-            volumeController.setMute(configuration.settingsConfig.isMute == 0 ? false : true);
-        }
-        else
-        {
-            Debug.Log("configuration = null");
+            volumeController.setMute(configuration.settingsConfig.isMute);
         }
     }
 

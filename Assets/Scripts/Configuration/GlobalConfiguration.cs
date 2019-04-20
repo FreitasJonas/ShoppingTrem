@@ -1,11 +1,11 @@
 ﻿using UnityEngine;
 
 [System.Serializable]
-public class GlobalConfiguration : MonoBehaviour
+public class GlobalConfiguration 
 {
     public SettingsConfig settingsConfig = new SettingsConfig();
-    //public InventaryData inventaryData = new InventaryData();
-    //public ProgressData progressData = new ProgressData();
+    public InventaryData inventaryData = new InventaryData();
+    public ProgressData progressData = new ProgressData();
     public ScoreData scoreData = new ScoreData();
 }
 
@@ -14,8 +14,10 @@ public class SettingsConfig
 {
     #region Som
 
-    public int isMute;
-    public double volume;
+    public int _isMute;
+    public bool isMute;
+
+    public float volume;
 
     #endregion
 }

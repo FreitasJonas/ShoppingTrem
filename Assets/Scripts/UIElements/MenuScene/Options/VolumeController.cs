@@ -1,5 +1,4 @@
-﻿using System;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
@@ -9,34 +8,42 @@ public class VolumeController : MonoBehaviour, IPointerClickHandler
 
     public Sprite muteSprite;
     public Sprite noMuteSprite;
-
     public Slider slider;
 
-    public void Start()
-    {
-        //this.gameObject.GetComponent<Image>().sprite = noMuteSprite;
-    }
+    public ICameraConfig cameraConfig;
 
+    void Start()
+    {
+        cameraConfig = GameObject.FindWithTag("camera").GetComponent<ICameraConfig>();
+    }
+    
     public void OnPointerClick(PointerEventData eventData)
     {
+        Debug.Log("Clecked!");
+
         this.isMute = !this.isMute;
         this.slider.interactable = !this.isMute;
         this.gameObject.GetComponent<Image>().sprite = isMute == false ? noMuteSprite : muteSprite;
+
+        cameraConfig.ApplyMute(isMute);
     }
 
-    public void setMute(bool mute) {
-
-        Debug.Log("mute: " + mute);
+    public void setMute(bool mute) { 
 
         this.isMute = mute;
         this.slider.interactable = !mute;
         this.gameObject.GetComponent<Image>().sprite = isMute == false ? noMuteSprite : muteSprite;
+
+        cameraConfig.ApplyMute(isMute);
     }
 
-    public int GetMuteValue()
+    public void OnValueChanged()
     {
-        var val = isMute ? 1 : 0;
-        Debug.Log("Val: " + val);
-        return val;
+        cameraConfig.ApplyVolume(slider.value);
+    }
+
+    public bool GetMuteValue()
+    {
+        return isMute;
     }
 }

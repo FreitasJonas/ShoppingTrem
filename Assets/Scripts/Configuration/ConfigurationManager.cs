@@ -27,12 +27,9 @@ public class ConfigurationManager : MonoBehaviour
             if (PlayerPrefs.HasKey(Instance.key))
             {
                 var Json = PlayerPrefs.GetString(Instance.key);
-                Debug.Log("Load: " + Json);
-
-                GlobalConfiguration configuration = JsonConvert.DeserializeObject<GlobalConfiguration>(Json);
-                    //(GlobalConfiguration)JsonUtility.FromJson(jSon, typeof(GlobalConfiguration));
-
-                Debug.Log("VOLUME: " + configuration.settingsConfig.volume);
+                 
+                var configuration = new GlobalConfiguration();
+                JsonUtility.FromJsonOverwrite(Json, configuration);
 
                 return configuration;
             }
@@ -43,7 +40,6 @@ public class ConfigurationManager : MonoBehaviour
         }
         catch (Exception e)
         {
-            Debug.Log("Deserialize Error! " + e.Message);
             return null;
         }
         
@@ -51,9 +47,7 @@ public class ConfigurationManager : MonoBehaviour
 
     public void SaveConfiguration(GlobalConfiguration configuration)
     {
-        //var jSon = JsonUtility.ToJson(configuration, true);
-        var Json = JsonConvert.SerializeObject(configuration, Formatting.Indented);
-        Debug.Log("Save: " + Json);
+        var Json = JsonUtility.ToJson(configuration, true);
 
         PlayerPrefs.SetString(Instance.key, Json);
     }
