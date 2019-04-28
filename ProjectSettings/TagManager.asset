@@ -3,7 +3,24 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - vidros
+  - parede
+  - chao
+  - cashRef
+  - Fire
+  - assento
+  - Mochila
+  - cliente
+  - Produto
+  - JoyStick
+  - BtnArrowLeft
+  - BtnSale
+  - BtnRun
+  - BtnArrowRight
+  - BtnSit
+  - guard_limiter
+  - camera
   layers:
   - Default
   - TransparentFX

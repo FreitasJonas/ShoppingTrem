@@ -22,27 +22,25 @@ public class ConfigurationManager : MonoBehaviour
 
     public GlobalConfiguration LoadConfigurarion()
     {
+        var configuration = ConfigurationManager.Instance.GetDefaultConfiguration();
+        var Json = "";  
+
         try
         {
             if (PlayerPrefs.HasKey(Instance.key))
             {
-                var Json = PlayerPrefs.GetString(Instance.key);
+                Json = PlayerPrefs.GetString(Instance.key);
                  
-                var configuration = new GlobalConfiguration();
+                configuration = new GlobalConfiguration();
                 JsonUtility.FromJsonOverwrite(Json, configuration);
+            }
 
-                return configuration;
-            }
-            else
-            {
-                return null;
-            }
+            return configuration;
         }
         catch (Exception e)
         {
-            return null;
-        }
-        
+            return configuration;
+        }        
     }
 
     public void SaveConfiguration(GlobalConfiguration configuration)
@@ -50,5 +48,25 @@ public class ConfigurationManager : MonoBehaviour
         var Json = JsonUtility.ToJson(configuration, true);
 
         PlayerPrefs.SetString(Instance.key, Json);
+    }
+
+    private GlobalConfiguration GetDefaultConfiguration()
+    {
+        var configuration = new GlobalConfiguration();
+
+        //Settings
+        configuration.settingsConfig.isMute = false;
+        configuration.settingsConfig.volume = 0.5f;
+
+        //Score
+        configuration.scoreData.cash = 500;
+        configuration.scoreData.score = 1000;
+
+        //Progress
+
+
+        //Inventary
+
+        return configuration;
     }
 }
