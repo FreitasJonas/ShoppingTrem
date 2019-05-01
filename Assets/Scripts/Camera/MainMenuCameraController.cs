@@ -6,7 +6,7 @@ public class MainMenuCameraController : MonoBehaviour, ICameraConfig
     private AudioSource audioSource;
     private GlobalConfiguration configuration;
 
-    private void Start()
+    private void Start()    
     {
         configuration = ConfigurationManager.Instance.LoadConfigurarion();
         audioListner = GetComponent<AudioListener>();   
